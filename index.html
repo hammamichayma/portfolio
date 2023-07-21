@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="css1.css">
     <!-- use boxicons ! -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!--The Typed.js library is a popular JavaScript library that allows you to create animated typing effects on a web page ! -->
@@ -13,13 +13,13 @@
 <body>
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
-        <nav class="navbar">
+        <div class="navbar">
             <a href="#">Home</a> 
-            <a href="#">About</a> 
-            <a href="#">Skill</a> 
+            <a href="#about">About</a> 
+            <a href="#sub-title">Skill</a> 
             <a href="#">Portfolio</a> 
-            <a href="#">Contact</a> 
-        </nav>
+            <a href="#contact">Contact</a> 
+        </div>
     </header>
     <section class="home">
         <div class="home-content">
@@ -37,8 +37,8 @@
         </div>
     </section>
     <section class="about" id="about">
-        <div class="about-img">
-         <img class="img-fluid w-100 rounded-circle shadow-sm"img  src="image1.png" alt="About Image">
+        <div class="about_img">
+         <img  class="imgHolder" src="image1.png" alt="About Image">
         </div>
         <div class="about-text">
             <h2>About<span>Me</span></h2>
@@ -48,18 +48,20 @@
         </div>
     </section>
     <section>
-        <h1 class="sub-title">My<span>Skills</span></h1>
-    </section>
+     <h1 class="sub-title">My<span>Skills</span></h1>
+     </section>
     <div class="container" id="skills" >
         <h1 class="heading">Technical Skills</h1>
         <div class="technical-bars">
-            <div class="bar"><i style="color: #c95d2e;" class='bx bxl-html5'></i></div>
-            <div class="info">
-                <span>HTML</span>
-            </div>
-            <div class="progress-line html">
-                <span></span>
-            </div>
+            <div>
+                <div class="bar"><i style="color: #c95d2e;  " class='bx bxl-html5'></i></div>
+                <div class="info">
+                    <span >HTML</span>
+                </div>
+                <div class="progress-line html">
+                    <span></span>
+                </div>
+            </div>  
             <div class="bar"><i  style="color: #147bbc;" class='bx bxl-css3'></i></div>
             <div class="info">
                 <span>CSS</span>

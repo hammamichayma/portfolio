@@ -40,7 +40,16 @@ body {
     transition: 0.3s;
 }
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:  5px;
+}
+
 .home {
+    
     position: relative;
     width: 100%;
     justify-content: space-between;
@@ -52,6 +61,7 @@ body {
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
+    margin-left:  400px;
 }
 
 .home-content h3 {
@@ -76,7 +86,9 @@ body {
 .home-content p {
     font-size: 20px;
 }
-
+.home-sci{
+    align-items: center;
+}
 .home-sci a {
     display: inline-flex;
     justify-content: center;
@@ -115,6 +127,10 @@ body {
     0 0 25px cyan, 0 0 50px cyan,
     0 0 10px cyan, 0 0 200px cyan;
 }
+.heading{
+   margin-left: 500px;
+
+}
 
 .about {
     display: grid;
@@ -123,12 +139,12 @@ body {
     gap: 1.5rem;
 }
 
-.about-img img {
-    padding-bottom: 20%;
+.about_img .imgHolder {
+    
     max-width: 630px;
     height: auto;
-    width: 100%;
-    border-radius: 8px;
+    width: 90%;
+    border-radius: 50%;
 }
 
 .about-text h2 {
@@ -157,6 +173,8 @@ body {
     text-align: center;
     font-size: 60px;
     padding-bottom: 70px;
+     margin-left: 500px;
+    
 }
 
 .sub-title span {
@@ -169,11 +187,18 @@ section {
 }
 
 .bar {
-    font-size: 23px;
+    font-size: 120px;
 }
 
-.technical-bars .bar {
+.technical-bars     {
     margin-top: 40px 0;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.technical-bars span{
+    margin-left: 500px;
+
 }
 
 .contact {
